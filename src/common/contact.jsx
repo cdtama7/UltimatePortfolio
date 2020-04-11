@@ -48,10 +48,10 @@ class Contact extends Component {
   render() {
     return (
       <div className="App container">
-        <h2 className="notapp">Contact Me</h2>
+        <h2>Contact Me</h2>
         <hr></hr>
         <form
-          id="contact-form"
+          id="contact-form class1"
           onSubmit={this.handleSubmit.bind(this)}
           method="POST"
         >
