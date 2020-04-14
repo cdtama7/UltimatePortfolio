@@ -3,7 +3,7 @@
 }
 
 .a1 {
-  background-color: #0729e7;
+  background-color: #1f2833;
 }
 
 .notapp {
@@ -48,6 +48,18 @@ h3 {
   }
 }
 
+/* .navbar {
+  background-color: #142ec2;
+} */
+
+/* .navbar {
+  background-color: #659dbd;
+} */
+
 .navbar {
-  background-color: #0729e7;
+  background-color: #1f2833;
+}
+
+.topnav-right {
+  float: right;
 }

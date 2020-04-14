@@ -24,10 +24,10 @@ class AboutMe extends Component {
           </div>
         </div>
         <div className="divdescrip row justify-content-center">
-          <div className="col-xs-7 col-sm-12 col-md-7 col-lg-7 col-xl-7 center nameh2">
+          <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 col-xl-9 center nameh2">
             <h2 className="h21">Hello there! I am Carlos!</h2>
           </div>
-          <div className="col-xs-7 col-sm-12 col-md-7 col-lg-7 col-xl-7 center nameh2">
+          <div className="col-xs-7 col-sm-7 col-md-6 col-lg-6 col-xl-4 center nameh2">
             <p className="descrip">
               I am a Full Stack web/mobile Developer with a bachelor’s degree in
               business management. A team player, collaborator and passionate

@@ -10,6 +10,14 @@ p {
   color: white;
 }
 
-/* .wrappertable {
-  background-color: blue;
-} */
+.backgroundskills {
+  text-decoration-color: white;
+  background: #1f2833;
+}
+
+.tablebox {
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #1f2833;
+  padding: 10px;
+}

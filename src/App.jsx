@@ -6,6 +6,7 @@ import Projects from "./common/projects.jsx";
 import AboutMe from "./common/aboutme";
 import "./App.css";
 import Table from "./common/table";
+import resume from "./resume/Resume Carlos De Castro April 9-2020.docx";
 
 class App extends Component {
   state = {};
@@ -37,11 +38,15 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <div class="topnav-right">
+            <a className="nav-item nav-link a1" href={resume}>
+              Download Resume
+            </a>
+          </div>
         </nav>
         <div id="aboutMe">
           <AboutMe></AboutMe>
         </div>
-        <br></br>
         <div id="skills">
           <Table></Table>
         </div>

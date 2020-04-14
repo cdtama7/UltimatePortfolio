@@ -6,10 +6,17 @@
 .image {
   opacity: 1;
   display: block;
-  width: 250px;
+  width: 600px;
   height: 200px;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.imagewithin {
+  opacity: 1;
+  display: block;
+  width: 150px;
+  height: 75px;
 }
 
 .middle {
@@ -24,16 +31,16 @@
 }
 
 .container1:hover .image {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .container1:hover .middle {
   opacity: 1;
 }
 
-a {
+/* a {
   background-color: white;
-}
+} */
 
 .text {
   color: white;
@@ -42,21 +49,40 @@ a {
 }
 
 /* unvisited link */
-a:link {
-  color: red;
+.a1:link {
+  color: hotpink;
 }
 
 /* visited link */
-a:visited {
+.a1:visited {
   color: white;
 }
 
 /* mouse over link */
-a:hover {
-  color: white;
+.a1:hover {
+  color: aqua;
 }
 
 /* selected link */
-a:active {
+.a1:active {
+  color: hotpink;
+}
+
+.a2:link {
+  color: red;
+}
+
+/* visited link */
+.a2:visited {
+  color: black;
+}
+
+/* mouse over link */
+.a2:hover {
+  color: black;
+}
+
+/* selected link */
+.a2:active {
   color: hotpink;
 }
