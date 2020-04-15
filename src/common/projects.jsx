@@ -5,6 +5,7 @@ import rasLogo from "../ras.png";
 import recipeasy from "../Recipeasy-site.png";
 import classy from "../Classy-site.png";
 import ras from "../RAS-site.png";
+import github from "../GitHub-Mark-32px.png";
 import "./projects.css";
 
 class Projects extends Component {
@@ -36,6 +37,9 @@ class Projects extends Component {
                   </a>
                   <p>Find pieces of art from home!</p>
                 </div>
+                <a className="a2" href="https://github.com/cdtama7/Regal-Art">
+                  <img className="github" src={github} alt="rasrepo" />
+                </a>
               </div>
 
               <div class="col-md-4 mb-3 container1 profilepicdiv">
@@ -45,11 +49,14 @@ class Projects extends Component {
                     <img
                       className="imagewithin"
                       src={classyLogo}
-                      alt="recipeasy"
+                      alt="classy"
                     />
                   </a>
                   <p>Connecting Students with tutors!</p>
                 </div>
+                <a className="a2" href="https://github.com/cdtama7/Classy">
+                  <img className="github" src={github} alt="classyrepo" />
+                </a>
               </div>
 
               <div class="col-md-4 mb-3 container1 profilepicdiv">
@@ -68,6 +75,9 @@ class Projects extends Component {
                   </a>
                   <p>Find recipes from what you have on your fridge!</p>
                 </div>
+                <a className="a2" href="https://github.com/cdtama7/Recipeasy">
+                  <img className="github" src={github} alt="recipeasy" />
+                </a>
               </div>
             </div>
           </div>

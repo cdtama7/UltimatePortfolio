@@ -2,6 +2,16 @@ p {
   color: black;
 }
 
+h5 {
+  color: #342ead;
+  font-size: 32px;
+}
+
+h6 {
+  color: #342ead;
+  font-size: 26px;
+}
+
 .centeredtext {
   text-align: center;
 }
@@ -12,12 +22,18 @@ p {
 
 .backgroundskills {
   text-decoration-color: white;
-  background: #1f2833;
+  background: #342ead;
 }
 
 .tablebox {
   background-color: white;
   border-radius: 25px;
-  border: 1px solid #1f2833;
+  border: 1px solid #342ead;
   padding: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.occupyheight {
+  height: 150px;
 }

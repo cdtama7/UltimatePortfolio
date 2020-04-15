@@ -5,9 +5,9 @@ img {
   width: 40%;
 }
 
-/* p {
-  color: white;
-} */
+p {
+  font-size: 20px;
+}
 
 .profilepic {
   height: 200px;
@@ -35,7 +35,7 @@ h2 {
 }
 
 .divdescrip {
-  background-color: #1f2833;
+  background-color: #342ead;
   padding: 30px 0px 15px 0px;
 }
 
@@ -44,4 +44,8 @@ h2 {
   width: 60%;
 
   padding: 10px;
+}
+
+.descrip {
+  font-size: 20px;
 }

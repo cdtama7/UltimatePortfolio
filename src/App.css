@@ -1,13 +1,23 @@
 .App {
   text-align: center;
+  color: #342ead;
+}
+
+h2 {
+  color: #342ead;
 }
 
 .a1 {
-  background-color: #1f2833;
+  background-color: #342ead;
+}
+
+hr {
+  background-color: #342ead;
 }
 
 .notapp {
   text-align: left;
+  color: #342ead;
 }
 
 .App-logo {
@@ -48,18 +58,23 @@ h3 {
   }
 }
 
-/* .navbar {
-  background-color: #142ec2;
-} */
+.navbar {
+  background-color: #342ead;
+}
 
 /* .navbar {
   background-color: #659dbd;
 } */
 
-.navbar {
+/* .navbar {
   background-color: #1f2833;
-}
+} */
 
 .topnav-right {
   float: right;
+}
+
+.btn {
+  background-color: #342ead;
+  color: white;
 }
